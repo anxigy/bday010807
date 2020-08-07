@@ -1,0 +1,7 @@
+.historyImg{
+  height: 100vh;
+  @media screen and (max-width: 600px) {
+    height: 50vh;
+    margin-top: 30vh;;
+  }
+}

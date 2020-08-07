@@ -1,0 +1,116 @@
+.logo-header { 
+  text-align: center;
+  background-color: #fff;
+  width: 100vw;
+  height: 14vh;
+  line-height: 14vh;
+}
+
+
+.nav {
+  margin-top: 0.29vh;
+  background-color: #fff;
+  text-align: center;
+  height: 5.8vh;
+  line-height: 5.8vh;
+  width: 100vw;
+}
+
+.navFixed {
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+.logo {
+  margin-top : 2.9vh;
+  width: auto;
+  height: 7vh;
+}
+
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+  #root {
+    width: 100vw;
+    height: 100vh;
+    .App{
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+}
+
+.nav-text{
+  margin-right: 5.75vw;
+  &:last-child {
+    margin-right: 0;
+  }
+  font-family: 'Raleway';
+  background: linear-gradient(to right, rgba(255,255,255,0) 50%, rgba(153, 187, 255, 1) 50%);
+  background-size: 200%;
+  transition: .35s;
+  font-size: 0.8em;
+  &:hover{
+    background-position: -100% 0;
+  }
+}
+
+
+.footer {
+  border-top: 1px solid #DCDCDC;
+  width: 100vw;
+  height: 30vh;
+}
+
+.footer-item {
+  margin-left: 17vw;
+  margin-right: 17vw;
+}
+
+.copy{
+  color: #707070;
+  font-family: 'Roboto';
+}
+
+.footer-info{
+  color: #707070;
+  font-family: 'NotoSansCJKkr-Light';
+  width: 13vw;
+  font-size: 1em;
+  @media screen and (max-width: 600px) {
+    width: 100vw;
+  }
+}
+
+.footer-left{
+  width: 30vw;
+  margin-top: 11vh;
+  float: left;
+  @media screen and (max-width: 600px) {
+    float: none;
+    width: 100vw;
+    margin-top: 5vh;
+  }
+}
+
+.footer-right{
+  float: right;
+  margin-top: 8vh;
+  @media screen and (max-width: 600px) {
+    float: none;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    text-align: center;
+  }
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("./styles/fonts/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr-Light";
+  src: url("./styles/fonts/NotoSansCJKkr-Light.otf") format("otf");
+}

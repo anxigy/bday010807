@@ -1,0 +1,134 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.left-item{
+  margin-top: 20vh;
+  margin-left: 12vw;
+}
+
+.right-item{
+  width: 50vw;
+  float: left;
+  margin-top: 10vh;
+  @media screen and (max-width: 600px) {
+    width: 100vw;
+    margin-bottom: 10vh;
+  }
+  img{
+    @media screen and (max-width: 600px) {
+      width: 100vw;
+    }
+  }
+}
+
+.title{
+  text-align: left;
+  width: 54vw;
+  height: 10.44vh;
+  font-size: 2.8em;
+  font-family: 'Gotham-Black';
+  letter-spacing: 0.4vh;
+  color: rgba(0, 85, 255, 1);
+  text-transform: uppercase;
+  opacity: 1;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.3em;
+    width: 20vw;  
+  }
+}
+
+.subtitle{
+  margin-top: 2.9vh;
+  // height: 135px;
+  width: 58.82vw;
+  font-family: 'Gotham-Black';
+  font-size: 2.8em;
+  color:#F6F6F6;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+  -moz-text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+  -webkit-text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+.description{
+  color: #595959;
+  margin-top: 1.17vh;
+  font-size: 0.9em;
+  font-family: 'NotoSansCJKkr-Light';
+}
+
+.bdayText{
+  color: #EDEDED;
+  font-size: 2.8em;
+  font-family: 'Gotham-Black';
+  margin-top: 16vh;
+  @media screen and (max-width: 600px) {
+    margin-top: 12vh;
+    width: 100vw;
+  }
+}
+
+.msgBox{
+  width: 46.76vw;
+  height: 29.41vh;
+  background: #fff;
+  margin-top: 5.88vh;
+  @media screen and (max-width: 600px) {
+    width: 90vw;
+    text-align: center;
+    margin: 5vw;
+  }
+}
+
+.msgText{
+  height: 13.97vh;
+  text-align: right;
+  padding-right: 2.8vw;
+  padding-left: 2.8vw;
+  padding-top: 5.14vh;
+  font-family: "NotoSansCJKkr-Light";
+  color: #4E4E4E;
+  font-size: 0.98em;
+}
+
+.pageBtn{
+  width: 5vw;
+  height: 10vh;
+  background-color: #0055FF;
+  text-align: center;
+  line-height: 13vh;
+  float: left;
+  &:hover{
+    background-color: #3E8CF3;
+  }
+  @media screen and (max-width: 600px) {
+    width: 15vw;
+  }
+}
+
+.page{
+  flex-direction: row;
+  display: block;
+}
+
+.msgNum{
+  float: right;
+  line-height: 8.8vh;
+  margin-right: 1.4vw;
+  @media screen and (max-width: 600px) {
+    margin-right: 4vw;
+  }
+}
+
+@font-face {
+  font-family: "Gotham-Black";
+  src: url("../fonts/Gotham-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr-Light";
+  src: url("../fonts/NotoSansCJKkr-Light.otf") format("otf");
+}
